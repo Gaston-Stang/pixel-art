@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pixel art!</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="icon" href="img/icono.png">
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/pixelart.css">
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/html2canvas.js"></script>
+		<script src="js/pixelart.js"></script>
+	</head>
+	<body>
+		<div id="margen">
+			<header>
+				<h1 id="titulo">¡¡pixel art!!</h1>
+			</header>
+			<section>
+				<div id="container"></div>
+				<div class="actions">
+					<div id="color-pick">
+						<div class="#ecf0f1"></div>
+						<div class="#656565"></div>
+						<div class="#000000"></div>
+						<div class="#00d0c1"></div>
+						<div class="#14d000"></div>
+						<div class="#650bba"></div>
+						<div class="#fefe00"></div>
+						<div class="#ff6607"></div>
+						<div class="#b6ff20"></div>
+						<div class="#ff008b"></div>
+						<div class="#ff0000"></div>
+						<div class="#67361D"></div>
+						<div class="#0c02ff"></div>
+						<div class="#0f5600"></div>
+						<div class="#ffb886"></div>
+						<div class="#ffd6d9"></div>
+					</div>
+					<div class="acciones_botones">
+						<div id="tam">
+							<p>tamaño:</p>
+							<input type="text" id="cambiarGrilla" placeholder="1 a 50">
+							<button class="btn" id="botonParaSetearGrilla">
+								<span class="ion-arrow-resize"></span>
+							</button>
+						</div>
+						<button class="btn secundarios" id="reset">
+							<span class="ion-android-sync"></span>
+						</button>
+						<button class="btn secundarios" id="toggle-border">
+							<span class="ion-ios-grid-view-outline"></span>
+						</button>
+						<button class="btn secundarios" id="grab-it">
+							<span class="ion-checkmark"></span>
+						</button>
+					</div>
+				</div>
+				<div id="foto-del-dibujo">
+					<h3>Tu Dibujo aparecerá acá abajo:</h3>
+					<!--<img src="http://lorempixel.com/400/400">-->
+					<div id="dibujosEnImagenes"></div>
+				</div>
+			</section>
+			<footer>
+				<div id="contenedor-footer-b-a">
+					<div id="cosas-del-footer-b">
+						<h3 class="cosas-del-footer">mini menú:</h3>
+						<ul class="cosas-del-footer">
+							<li>
+								<a class="cosas-del-footer" href="#margen">Volver hacia arriba</a>
+							</li>
+							<li>
+								<a class="cosas-del-footer" href="#container">Volver hacia el dibujo</a>
+							</li>
+							<li>
+								<a class="cosas-del-footer" href="#foto-del-dibujo">Volver hacia las imagenes</a>
+							</li>
+						</ul>
+					</div>
+					<div id="cosas-del-footer-a">
+						<h3 class="cosas-del-footer">sobre el sitio:</h3>
+						<p class="cosas-del-footer">Versión 1.0 (v 1.1 ya en proceso), aunque el responsive design todavía queda mucho (demasiado) por mejorar :)</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,256 @@
+/*color de fondo y márgenes*/
+
+body
+{
+	background-color: #3498db;
+	background-image: url("../img/fondo_tres.jpg");
+	background-size: 15%;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+#margen
+{
+	background-color: #fff;
+	border: 2px solid rgba(0, 0, 0, .6);
+	border-top: none;
+	border-bottom: none;
+	margin: 0px auto;
+	width: 70%;
+}
+
+/*título-header*/
+
+header
+{
+	background-color: #fff;
+	border-bottom: 1px solid blue;
+	margin-bottom: 50px;
+}
+
+#titulo
+{
+	color: #2957ba;
+	margin-top: 0;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*grilla para dibujar*/
+
+#container
+{
+	height: 400px;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.celdas 
+{
+	cursor: pointer;
+	float: left;
+	outline: 0.2px solid #fff;
+	background-color: #ecf0f1;
+}
+
+.sacar-bordes
+{
+	outline: none;
+}
+
+/*todas las opciones*/
+
+.actions
+{
+	height: 100%;
+	width: 400px;/*43.5%*/
+	margin: 20px auto;
+}
+
+/*para cambiar los colores*/
+
+#color-pick
+{
+	display: inline-block;
+	float: left;
+	height: 50%;
+	padding:1px;
+	width: 50%;
+}
+
+#color-pick div
+{
+	border-radius: 20px;
+	height: 33px;
+	margin-left: 9px;
+	width: 33px;
+	display: inline-block;
+}
+
+.colorParaPintar
+{
+	border: 5px solid #fff;
+	box-sizing: border-box;
+}
+
+
+/*cambiar tamaño y otros botones*/
+
+.acciones_botones
+{
+	width: 49%;
+	height: 100%;
+	display: inline-block;
+}
+
+/*cambiar tamaño (input y más)*/
+
+#tam
+{
+	background-color: #fff;
+	border: 3px solid #000;
+	border-radius: 20px;
+	height: 26px;
+	margin-left: 15px;
+	padding: 5px;
+	width: 81%;
+}
+
+#tam p
+{
+	display: inline-block;
+	margin: 3px 0px 0px 6px;
+}
+
+input 
+{
+	border: none;
+	border-bottom: 1px solid #666;
+	height: 10px;
+	text-align: center;
+	width: 60px;
+}
+
+/*botones*/
+
+.btn /*tambien cambia el botón del input*/
+{
+	border: 3px solid grey;
+	border-radius: 100%;
+	background-color: #fff;
+}
+.btn:hover
+{
+	background-color: #3498db;
+	border: 3px solid #3498db;
+	color: white;
+}
+.btn:focus
+{
+	outline: none;
+}
+.btn.secundarios:active
+{
+	border: 6px solid #0f85d1;
+}
+
+.secundarios
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 11.3px;
+}
+
+/*crear fotos de las dibujos*/
+
+#foto-del-dibujo
+{
+	clear: left;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 2%;
+	width: 400px;
+}
+
+/*footer y div dentro*/
+
+footer
+{
+	background-color: #212121;
+	border-top: 1px solid blue;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 30%;
+	width: 100%;
+	font-weight: bold;
+}
+
+#contenedor-footer-b-a
+{
+	height: 100%;
+	width: 70%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+/*elementos dentro del footer*/
+
+.cosas-del-footer
+{
+	color: #2957ba;
+	text-decoration: none;
+	text-align: left;
+}
+
+/*títulos del footer*/
+
+h3.cosas-del-footer
+{
+	color: #616161;
+	text-transform: uppercase;
+}
+
+/*estilo de las listas*/
+
+ul.cosas-del-footer
+{
+	padding-left: 17px;
+}
+
+li
+{
+	list-style-type: square; 
+	width: 65%;
+}
+li:hover
+{
+	color: #fff;
+	list-style-type: square;
+}
+
+/*mini menú ("footer a")*/
+
+#cosas-del-footer-a
+{
+	color: #2957ba;
+	display: inline-block;
+	height: 100%;
+	text-decoration: none;
+	width: 49%;
+}
+
+/*sobre el sitio ("footer b")*/
+
+#cosas-del-footer-b
+{
+	color: #2957ba;
+	display: inline-block;
+	height: 100%;
+	text-decoration: none;
+	width: 50%;
+}
